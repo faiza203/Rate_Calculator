@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="image.png" class="image" />
+    <h2>Exchange Rate Calculator</h2>
+    <p>Choose the currency and the amounts to get the exchange rate</p>
+    <div class="main">
+      <div class="currency">
+        <select id="currencyOne">
+          <option value="AED">AED</option>
+          <option value="AFN">AFN</option>
+          <option value="ALL">ALL</option>
+          <option value="AMD">AMD</option>
+          <option value="USD" selected>USD</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="AWG">AWG</option>
+          <option value="AZN">AZN</option>
+          <option value="BAM">BAM</option>
+          <option value="BMD">BMD</option>
+          <option value="BND">BND</option>
+          <option value="BZD">BZD</option>
+          <option value="CAD">CAD</option>
+          <option value="CLP">CLP</option>
+        </select>
+        <input type="number" id="amount_one" placeholder="0" value="1" />
+      </div>
+      <div class="swap-rate">
+          <button class="btn" id="rate">Swap</button>
+          <div class="rate" id="rate"></div>
+      </div>
+      <div class="currency">
+        <select class="currencyTwo">
+          <option value="AED">AED</option>
+          <option value="EUR" selected>EUR</option>
+          <option value="ALL">ALL</option>
+          <option value="AMD">AMD</option>
+          <option value="USD">USD</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="AWG">AWG</option>
+          <option value="AZN">AZN</option>
+          <option value="BAM">BAM</option>
+          <option value="BMD">BMD</option>
+          <option value="BND">BND</option>
+          <option value="BZD">BZD</option>
+          <option value="CAD">CAD</option>
+          <option value="CLP">CLP</option>
+          <input type="number" id="amount_one" placeholder="0" />
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
